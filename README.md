@@ -12,7 +12,7 @@ Bem-vindo ao meu portfólio pessoal! Este repositório contém informações sob
 
 - E-mail: luan10091993@hotmail.com
 - LinkedIn: https://www.linkedin.com/in/luan-santos-361480257/
-- Website: https://luasant93.github.io/portfolio-luan-santos/
+- Website: 
 
 Sinta-se à vontade para explorar meus projetos e entrar em contato comigo se tiver alguma pergunta ou oportunidade interessante!
 
