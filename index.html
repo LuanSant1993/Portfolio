@@ -60,13 +60,16 @@
                 <p class="job">Cursando Engenharia da Computação - 8º Semestre</p>
                 <p class="location">
                     <a href="https://www.google.com.br/maps/place/R.+770,+220+-+Centro,+Balne%C3%A1rio+Cambori%C3%BA+-+SC,+88330-601/@-26.9934867,-48.6440917,17z/data=!3m1!4b1!4m6!3m5!1s0x94d8b5fce24fff7d:0x6bda48f402e80bc2!8m2!3d-26.9934915!4d-48.6415168!16s%2Fg%2F11c2dtdwx5?entry=ttu"
-                        target="_blank">Balneário Camboriú -SC </a>
+                        target="_blank"
+                         onclick="gtag('event', 'click_location')">
+                        Balneário Camboriú - SC
+                        </a>
                 </p>
                 <p class="phone">
-                    <a href="tel:5547996595349">(47)996595349</a>
+                    <a href="tel:5547996595349" onclick="gtag('event', 'click_phone')">(47)996595349</a>
                 </p>
                 <p class="email">
-                    <a href="mailto:luan10091993@hotmail.com">luan10091993@hotmail.com</a>
+                    <a href="mailto:luan10091993@hotmail.com" onclick="gtag('event', 'click_email')">luan10091993@hotmail.com</a>
                 </p>
             </div>
         </header>
@@ -180,7 +183,7 @@
                     <li>Português (BR)</li>
                     <li> Inglês intermediário – habilidade em leitura, 
                         compreensão de textos técnicos e comunicação básica em contextos profissionais.
-
+                    </li>
             </div>
         </section>
 
@@ -194,19 +197,28 @@
                     <li>
                         <h3 class="title github">Site Fictício</h3>
                         <a href="https://luansant1993.github.io/Site-Ficticio/"
-                            target="_blank">https://luansant1993.github.io/Site-Ficticio/</a>
+                         target="_blank"
+                        onclick="gtag('event', 'click_projeto', {project_name: 'Site Ficticio'})">
+                        https://luansant1993.github.io/Site-Ficticio/
+                        </a>
                     </li>
 
                     <li>
                         <h3 class="title github">Desafio HTML</h3>
                         <a href="https://luansant1993.github.io/Desafio-HTML-Final/"
-                            target="_blank">https://luansant1993.github.io/Desafio-HTML-Final/</a>
+                        target="_blank"
+                        onclick="gtag('event', 'click_projeto', {project_name: 'Desafio HTML'})">
+                         https://luansant1993.github.io/Desafio-HTML-Final/
+                        </a>
                     </li>
 
                     <li>
                         <h3 class="title github">Certificard</h3>
                         <a href="https://luansant1993.github.io/CertifiCard/"
-                            target="_blank">https://luansant1993.github.io/CertifiCard/</a>
+                         target="_blank"
+                         onclick="gtag('event', 'click_projeto', {project_name: 'Certificard'})">
+                         https://luansant1993.github.io/CertifiCard/
+                        </a>
                     </li>
                 </ul>
             </div>
