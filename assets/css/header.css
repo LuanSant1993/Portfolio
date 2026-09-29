@@ -8,11 +8,11 @@
 h1,
 p {
     color: white;
-    text-shadow: 10px 10px 5px lightblue;
+
 }
 
 h4 {
-    font-style: italic;
+    font-weight: 500;
 }
 
 .header::after {
@@ -32,11 +32,11 @@ h4 {
     width: 200px;
     height: 200px;
     border-radius: 20px 5px;
-    box-shadow: 10px 10px 10px lightskyblue;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.35);
 }
 
 .header .title {
-    font-family: 'Neue Machina';
+    font-family: 'Inter', sans-serif;
     text-align: center;
 }
 
